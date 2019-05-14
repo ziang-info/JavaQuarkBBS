@@ -9,6 +9,14 @@
     <version>1.0-SNAPSHOT</version>
     <packaging>pom</packaging>
 
+    <modules>
+        <module>quark-common</module>
+        <module>quark-admin</module>
+        <module>quark-chat</module>
+        <module>quark-rest</module>
+        <module>quark-portal</module>
+    </modules>
+
     <!-- 集中定义依赖版本号与基本配置 -->
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
