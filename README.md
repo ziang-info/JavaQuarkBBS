@@ -61,6 +61,9 @@
 ### 通信模型
 ![image](https://raw.githubusercontent.com/ChinaLHR/JavaQuarkBBS/master/resource/images/quark_chat_message.png) 
 
+## 系统编译
+    mvn package -Dmaven.test.skip=true
+
 ## 环境部署
 	导入resource文件夹下的sql文件
 	Redis服务器：默认端口
